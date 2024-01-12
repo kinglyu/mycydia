@@ -3,11 +3,11 @@ Version: 1.0.3-1+debug
 Architecture: iphoneos-arm
 Maintainer: reverse
 Installed-Size: 788
-Filename: /Users/apple/Desktop/Project/code/mycydia/./debs/com.reverse.ysl_1.0.3-1+debug_iphoneos-arm.deb
-Size: 93922
-MD5sum: 998f02704a1de963c7d55aade66f0a24
-SHA1: ac4e895f6d4b8e01a5793c90f46cef4cb5a7aeb7
-SHA256: 9cef072b758c68b4223db3bb6073f5570f10e84785dc04bfda0b98e40c193fee
+Filename: ./debs/com.reverse.ysl_1.0.3-1+debug_iphoneos-arm.deb
+Size: 93902
+MD5sum: 9524bcd920fffa4027554028ec4f6213
+SHA1: 524741d56328ee2caa7449c369a2b8194438376e
+SHA256: b890b95cb458dfbb0357bdbac5c407712454f8cb6bd3b3745e3ebec67241aa09
 Section: System
 Description: ysl
 Tag: role::hacker
