@@ -31,15 +31,15 @@ Author: checktweak
 Name: checktweak
 
 Package: com.reverse.ysl
-Version: 2.0.6-1+debug
+Version: 2.0.5-1+debug
 Architecture: iphoneos-arm
 Maintainer: reverse
 Installed-Size: 3380
-Filename: ./debs/com.reverse.ysl_2.0.6-1+debug_iphoneos-arm.deb
-Size: 546140
-MD5sum: ad2d22d53567afbb661cd21aa88c2288
-SHA1: dff310a81f821e275765d84581414a20a3c119a5
-SHA256: bd129702f111353bd42ca8d844de05689f5394d8b31902a3f0ee9e8ce8c1e2c1
+Filename: ./debs/com.reverse.ysl_2.0.5-1+debug_iphoneos-arm.deb
+Size: 546674
+MD5sum: 2f25b49fb45dcd7b77c4fcfa1af19b59
+SHA1: 701471dd112cb60e3fae89a3257199ea2b5e4d84
+SHA256: 1e97a9e63a249eae9cee7220be4263b4904d510842ac3d0fb2d01c153c45c3c2
 Section: System
 Description: ysl
 Tag: role::hacker
