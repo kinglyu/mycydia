@@ -1,0 +1,48 @@
+Package: alsext
+Version: 0.0.1-26+debug
+Architecture: iphoneos-arm
+Maintainer: alsext
+Installed-Size: 408
+Depends: mobilesubstrate
+Filename: ./debs/alsext.deb
+Size: 110956
+MD5sum: c5213893fab963a5e6dde61c17edf4f7
+SHA1: 8d6087b509a6a3691093b03120c1cff3aaf70166
+SHA256: 59b411f575bb5f886a9de8d56e1ae63d41836c060d6155954f748180584ba553
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: alsext
+Name: alsext
+
+Package: checktweak
+Version: 0.0.1-15+debug
+Architecture: iphoneos-arm
+Maintainer: checktweak
+Installed-Size: 568
+Depends: mobilesubstrate
+Filename: ./debs/checktweak.deb
+Size: 194668
+MD5sum: 4fe2dc2f8de9eaa84becb3323b3944b8
+SHA1: bb0cb0683f91b61b176caf4af05ce3bc27d00a96
+SHA256: a1e6bfe48a151f5990211df8d347af579c9150663628799eb9bf979ecb39825e
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: checktweak
+Name: checktweak
+
+Package: com.reverse.ysl
+Version: 2.1.14-1+debug
+Architecture: iphoneos-arm
+Maintainer: reverse
+Installed-Size: 3460
+Filename: ./debs/com.reverse.ysl_2.1.14-1+debug_iphoneos-arm.deb
+Size: 558914
+MD5sum: e27b5f16e39c7dd876a82f65ecf396f7
+SHA1: 71eb8b0fc98d46c7c111bb763ca0f193c3a01ccb
+SHA256: 2c87c4d1b542eba2db7a75179e7b2c414b9c36fcf63510b562dba75dab525db8
+Section: System
+Description: ysl
+Tag: role::hacker
+Author: reverse
+Name: ysl
+
