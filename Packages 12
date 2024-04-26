@@ -1,0 +1,64 @@
+Package: alsext
+Version: 0.0.1-26+debug
+Architecture: iphoneos-arm
+Maintainer: alsext
+Installed-Size: 408
+Depends: mobilesubstrate
+Filename: ./debs/alsext.deb
+Size: 110956
+MD5sum: c5213893fab963a5e6dde61c17edf4f7
+SHA1: 8d6087b509a6a3691093b03120c1cff3aaf70166
+SHA256: 59b411f575bb5f886a9de8d56e1ae63d41836c060d6155954f748180584ba553
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: alsext
+Name: alsext
+
+Package: checktweak
+Version: 0.0.1-15+debug
+Architecture: iphoneos-arm
+Maintainer: checktweak
+Installed-Size: 568
+Depends: mobilesubstrate
+Filename: ./debs/checktweak.deb
+Size: 194668
+MD5sum: 4fe2dc2f8de9eaa84becb3323b3944b8
+SHA1: bb0cb0683f91b61b176caf4af05ce3bc27d00a96
+SHA256: a1e6bfe48a151f5990211df8d347af579c9150663628799eb9bf979ecb39825e
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: checktweak
+Name: checktweak
+
+Package: com.reverse.tiktoksslpinning
+Version: 1.0.4-1+debug
+Architecture: iphoneos-arm
+Maintainer: reverse
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.reverse.tiktoksslpinning_1.0.4-1+debug_iphoneos-arm.deb
+Size: 4590
+MD5sum: 5fc5aa6bae496d3235af674be7bc81fa
+SHA1: 7c5b55c82b8ce25a3726516b31aae0c939016975
+SHA256: 9e8869be9ced1f3e927f761aa4fba56fce4b34c1e491ca9c00e743c5b9a70fc1
+Section: Tweaks
+Description: bypass sslpining
+Author: reverse
+Name: tiktoksslpinning
+
+Package: com.reverse.ysl
+Version: 2.5.5-1+debug
+Architecture: iphoneos-arm
+Maintainer: reverse
+Installed-Size: 3588
+Filename: ./debs/com.reverse.ysl_2.5.5-1+debug_iphoneos-arm.deb
+Size: 591368
+MD5sum: 23c9a2b052d33b1f7980c4c754f7104b
+SHA1: a67c1acff3c08c065dabdcbcc6e0128885531b6e
+SHA256: 85ae9dce2ca07edb963a2115f35963924cdc32796deb010149510fbbad5cc65c
+Section: System
+Description: ysl
+Tag: role::hacker
+Author: reverse
+Name: ysl
+
