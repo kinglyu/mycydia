@@ -30,6 +30,91 @@ Description: An awesome MobileSubstrate tweak!
 Author: checktweak
 Name: checktweak
 
+Package: com.cokepokes.appstoreplusplus
+Version: 0.10.1-5
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.10.1-5_iphoneos-arm.deb
+Size: 4636364
+MD5sum: 1439e142bcdec4582b9ac8bccc112e4a
+SHA1: c252051616bade4de9d2ccc3a1ea7e29882488c8
+SHA256: 23bb2021da9b3fdaf5d947490f8ebff5c947d71a6966bf70e43c025c4916c8c7
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.whatever
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Icon: https://cokepokes.github.io/depiction/appstoreplus/icon.png
+Name: AppStore++
+
+Package: com.ex.substitute
+Version: 2.3.1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner
+Installed-Size: 27456
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Filename: ./debs/com.ex.substitute_2.3.1_iphoneos-arm.deb
+Size: 7442088
+MD5sum: dce90a30e8b20198762d81c5872ad1b3
+SHA1: 0f8c9ef6db614eb7f82caf7ff2b06cabf0233232
+SHA256: b37592166962f70a5b1bafc15848f229b4689bb60a9bbc61431b8be361193fd6
+Section: System
+Priority: optional
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: com.ex.substitute
+Version: 2.3.1+9.g200ddd5
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner
+Installed-Size: 27268
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Filename: ./debs/com.ex.substitute_2.3.1+9.g200ddd5_iphoneos-arm.deb
+Size: 7396812
+MD5sum: ef2b8cf4435eac40f44408c83c4a59b2
+SHA1: cb96e43bf91981bcbb5c5fae8e180b23ca7e94f7
+SHA256: 81a8ab27075317e42d9f34d32bfe772b0a6df1c317f64dd03c44c0dc11e2d70f
+Section: System
+Priority: optional
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: com.ex.substitute
+Version: 2.3.2+2.g3e9b535
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner
+Installed-Size: 27512
+Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
+Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
+Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
+Breaks: com.saurik.substrate.safemode (<<0.9.6004)
+Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
+Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
+Filename: ./debs/com.ex.substitute_2.3.2+2.g3e9b535_iphoneos-arm.deb
+Size: 7419452
+MD5sum: 63b5d0bded3a301fd099662d7ef5f470
+SHA1: 371d6731d8743d0d1deeefcd991f3408512d06a5
+SHA256: 907839cb277215871eff87356c7127d386f964ee7cfdbfd8b7f9705083167d3f
+Section: System
+Priority: optional
+Description: Substrate substitute for code substitution
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
 Package: com.reverse.tiktoksslpinning
 Version: 1.0.4-1+debug
 Architecture: iphoneos-arm
@@ -52,13 +137,33 @@ Architecture: iphoneos-arm
 Maintainer: reverse
 Installed-Size: 3756
 Filename: ./debs/com.reverse.ysl_3.12.8-1+debug_iphoneos-arm.deb
-Size: 619874
-MD5sum: 5ec72b2cfd1aa63db8e04d14958f38ac
-SHA1: 519cf5f60df86c3e334dd97228111ed5259e7d7f
-SHA256: ff11a75606b22c608775d380cb051671d76225e18953ff9486d8d52e24c7acd3
+Size: 621824
+MD5sum: c3e197bed2cb77b615c74cc320f8f55a
+SHA1: 552e227f008e8139a849278b079368f0d38650e7
+SHA256: c2f9e4e6eb8abc61fdbec04736e8130feadea75657f46357cfa786a3d074d4cb
 Section: System
 Description: ysl
 Tag: role::hacker
 Author: reverse
 Name: ysl
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.6005
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm.deb
+Size: 22736
+MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
+SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
+SHA256: de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87
+Section: Tweaks
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Name: Substrate Safe Mode
 
