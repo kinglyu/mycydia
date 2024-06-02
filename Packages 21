@@ -135,12 +135,12 @@ Package: com.reverse.ysl
 Version: 3.16.0-1+debug
 Architecture: iphoneos-arm
 Maintainer: reverse
-Installed-Size: 3880
+Installed-Size: 3848
 Filename: ./debs/com.reverse.ysl_3.16.0-1+debug_iphoneos-arm.deb
-Size: 644170
-MD5sum: f299fe0219c225a81f720d438fbe13a5
-SHA1: 8b60c2004a9ecc7b1441b5027927e1964cce4f0e
-SHA256: 1261afa1ae70ddc419eb410c8d9b4ae9b2c92861cc2fae2f7bfab77a6727e82e
+Size: 641442
+MD5sum: 24933e46567c701ce3daba2a30dbaf69
+SHA1: d600a6138e6abf0616e22d5561117e3a08994c3f
+SHA256: 67445f4f25cde83b7d96823b9cb3391c2c4a3495206c122d22e759bffd97aedd
 Section: System
 Description: ysl
 Tag: role::hacker
