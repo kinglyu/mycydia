@@ -135,12 +135,12 @@ Package: com.reverse.ysl
 Version: 3.17.5-1+debug
 Architecture: iphoneos-arm
 Maintainer: reverse
-Installed-Size: 3904
+Installed-Size: 3788
 Filename: ./debs/com.reverse.ysl_3.17.5-1+debug_iphoneos-arm.deb
-Size: 656270
-MD5sum: 3784f78372ea3407d9e29a57cc21f9e7
-SHA1: 75a7d679f7f8165944af466d83e3883eef932a04
-SHA256: 6f53becce9826e2f050dce09a29caacbf9db1a8e0db22433d7e49930b04e0289
+Size: 645584
+MD5sum: fad0e00b729d54ce2d26426621c538ed
+SHA1: b750dc4018563c1f24773ba68eb0a988df5a0ca4
+SHA256: 4b2ed4a6a1a168ddd1b11255b0575b88fb8a2a5632608ae9514e1f24e6bfaaaf
 Section: System
 Description: ysl
 Tag: role::hacker
@@ -166,4 +166,27 @@ Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
+
+Package: ws.hbang.newterm3
+Version: 3.0~beta1
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 14564
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs/ws.hbang.newterm3_3.0.beta1_iphoneos-arm.deb
+Size: 3832546
+MD5sum: 30a857128d778cbeccf713bc6aaa4104
+SHA1: 76e601cb202f8854855b75c11ac4b97bdd61b09c
+SHA256: 78d8babc5af351ff2ae00396798835b752722b56e65445f3009a82839c009782
+Section: Terminal Support
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta
+Support: https://hashbang.productions/support/
 
