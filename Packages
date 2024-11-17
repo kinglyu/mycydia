@@ -156,10 +156,10 @@ Architecture: iphoneos-arm
 Maintainer: reverse
 Installed-Size: 3788
 Filename: ./debs/com.reverse.ysl_3.17.5-1+debug_iphoneos-arm.deb
-Size: 645572
-MD5sum: 7348416616a46dbb64513a406638cb7d
-SHA1: df5f859b0294d248d768a75fa331be851a00e2bc
-SHA256: e210c978d773f1e0ffddd4f07d7e99b912b03475be9af64e12c250d66fd9cd35
+Size: 645552
+MD5sum: d05681056f6ac0bcb676c8065686800c
+SHA1: e33588ea07f076c67de580739bf6321c51b42aaf
+SHA256: 6fa9f39f105af439323c59013dc01085be7b219f98ef8c1938783c7354c67fc1
 Section: System
 Description: ysl
 Tag: role::hacker
@@ -193,7 +193,7 @@ Maintainer: Hayden Seay <me@diatr.us>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: readline, adv-cmds, mobilesubstrate (>= 0.9.6300)
 Breaks: cydget (<< 0.9.4008)
-Filename: ./debs/cycript_0.9.594-procursus1_iphoneos-arm.deb
+Filename: ./debs/cycript_0.9.594_iphoneos-arm.deb
 Size: 1329892
 MD5sum: 5195a56714b067dc7f696a021a1f1138
 SHA1: 3f39b32d92122583ee179cb2138a9b97c4416275
