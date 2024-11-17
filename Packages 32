@@ -49,22 +49,6 @@ Description: An awesome MobileSubstrate tweak!
 Author: checktweak
 Name: checktweak
 
-Package: com.bbarrows.cycript
-Version: 0.9.594
-Architecture: iphoneos-arm
-Maintainer: Brad Barrows <bebrws@gmail.com>
-Installed-Size: 24000000
-Provides: cycript
-Filename: ./debs/com.bbarrows.cycript_0.9.594+debug_iphoneos-arm-arm64-arm64e.deb
-Size: 3793276
-MD5sum: 3565a8b5e0e9dbee758a8a13655b41f1
-SHA1: cf9b6669de8d5e773267342b2cc483c412918cd7
-SHA256: c86bf8ecd31fbb22d426e63148fbecc3b363dba258a69909e2aa2024a027d1af
-Section: Development
-Description: cycript - One of the most powerful introspective/scripting tools there is for iOS and MacOS. This is my build of that project. Works on ios 13.* and built for arm64/arm64e
-Author: Saurik
-Name: cycript
-
 Package: com.cokepokes.appstoreplusplus
 Version: 0.10.1-5
 Architecture: iphoneos-arm
@@ -172,10 +156,10 @@ Architecture: iphoneos-arm
 Maintainer: reverse
 Installed-Size: 3788
 Filename: ./debs/com.reverse.ysl_3.17.5-1+debug_iphoneos-arm.deb
-Size: 645570
-MD5sum: ec755153e9b180798c10212bee9e35a2
-SHA1: 1c9e6e4e872da2cd08a0c0d1d44353d1bd00f923
-SHA256: 395d0464fce840b3d93c0de59ced7dc9585e83b89198614da879d148d20a4201
+Size: 645566
+MD5sum: 9e81e783170ec20c53a00a58963fb41b
+SHA1: 04e5f1b075f0876887210524f669adaf0ec22084
+SHA256: 463002341a7f1a5fe3affcb774faaf58ebecfbf7f3230b33ec3dafb27b8df053
 Section: System
 Description: ysl
 Tag: role::hacker
@@ -208,27 +192,6 @@ Architecture: iphoneos-arm
 Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 1852
 Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
-Filename: ./debs/ws.hbang.common_1.17 2.1_iphoneos-arm.deb
-Size: 208096
-MD5sum: a1a27d51f93da4262059fe937e025f35
-SHA1: d546e6520c107d8fa6e748c97244dcdbf38603ad
-SHA256: dca96478c832a552b35e77afa7b4950c66a00a06e0e467006b543adcaa2e92d0
-Section: Development
-Description: Support library for tweaks
-Tag: role::developer, compatible_min::ios5.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/cephei
-Dev: hbang
-Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
-Name: Cephei Tweak Support
-Support: https://hashbang.productions/support/
-
-Package: ws.hbang.common
-Version: 1.17.1
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 1852
-Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
 Filename: ./debs/ws.hbang.common_1.17.1_iphoneos-arm.deb
 Size: 208096
 MD5sum: a1a27d51f93da4262059fe937e025f35
@@ -242,28 +205,6 @@ Depiction: https://chariz.com/get/cephei
 Dev: hbang
 Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
-Support: https://hashbang.productions/support/
-
-Package: ws.hbang.newterm2
-Version: 2.5
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 6668
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm, com.lint.ntarrows
-Replaces: ws.hbang.newterm, com.lint.ntarrows
-Filename: ./debs/ws.hbang.newterm2_2 2.5_iphoneos-arm.deb
-Size: 2017880
-MD5sum: 2480551015065c4b64abf022443377c2
-SHA1: 91e758cb000d05824398be3e6951a180355a6550
-SHA256: c7e7cc736b52a8f705d165c7536fb7e71cda825fed2f6cbccfebbe2f8f49d01f
-Section: Terminal Support
-Description: A powerful terminal app for iOS
-Tag: compatible_min::ios10.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/newterm
-Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
-Name: NewTerm 2
 Support: https://hashbang.productions/support/
 
 Package: ws.hbang.newterm2
