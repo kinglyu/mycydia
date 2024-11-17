@@ -49,22 +49,6 @@ Description: An awesome MobileSubstrate tweak!
 Author: checktweak
 Name: checktweak
 
-Package: com.bbarrows.cycript
-Version: 0.9.594
-Architecture: iphoneos-arm
-Maintainer: Brad Barrows <bebrws@gmail.com>
-Installed-Size: 24000000
-Provides: cycript
-Filename: ./debs/com.bbarrows.cycript_0.9.594+debug_iphoneos-arm-arm64-arm64e.deb
-Size: 3793276
-MD5sum: 3565a8b5e0e9dbee758a8a13655b41f1
-SHA1: cf9b6669de8d5e773267342b2cc483c412918cd7
-SHA256: c86bf8ecd31fbb22d426e63148fbecc3b363dba258a69909e2aa2024a027d1af
-Section: Development
-Description: cycript - One of the most powerful introspective/scripting tools there is for iOS and MacOS. This is my build of that project. Works on ios 13.* and built for arm64/arm64e
-Author: Saurik
-Name: cycript
-
 Package: com.cokepokes.appstoreplusplus
 Version: 0.10.1-5
 Architecture: iphoneos-arm
@@ -172,10 +156,10 @@ Architecture: iphoneos-arm
 Maintainer: reverse
 Installed-Size: 3788
 Filename: ./debs/com.reverse.ysl_3.17.5-1+debug_iphoneos-arm.deb
-Size: 645570
-MD5sum: ec755153e9b180798c10212bee9e35a2
-SHA1: 1c9e6e4e872da2cd08a0c0d1d44353d1bd00f923
-SHA256: 395d0464fce840b3d93c0de59ced7dc9585e83b89198614da879d148d20a4201
+Size: 645572
+MD5sum: 7348416616a46dbb64513a406638cb7d
+SHA1: df5f859b0294d248d768a75fa331be851a00e2bc
+SHA256: e210c978d773f1e0ffddd4f07d7e99b912b03475be9af64e12c250d66fd9cd35
 Section: System
 Description: ysl
 Tag: role::hacker
@@ -201,6 +185,25 @@ Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
+
+Package: cycript
+Version: 0.9.594-procursus1
+Architecture: iphoneos-arm
+Maintainer: Hayden Seay <me@diatr.us>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: readline, adv-cmds, mobilesubstrate (>= 0.9.6300)
+Breaks: cydget (<< 0.9.4008)
+Filename: ./debs/cycript_0.9.594-procursus1_iphoneos-arm.deb
+Size: 1329892
+MD5sum: 5195a56714b067dc7f696a021a1f1138
+SHA1: 3f39b32d92122583ee179cb2138a9b97c4416275
+SHA256: b312a360129faee472e4b7904b3b8ba4d85761a3904b043e796b23b5f3e7146f
+Section: Development
+Priority: optional
+Description: runtime execution server and disassembler
+Tag: purpose::daemon, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Cycript
 
 Package: ws.hbang.common
 Version: 1.17.1
