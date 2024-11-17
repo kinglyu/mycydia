@@ -1,3 +1,22 @@
+Package: ai.paisseon.cydown
+Version: 7.1.6
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown, org.mr.cydown, ru.rj.cydown
+Filename: ./debs/ai.paisseon.cydown_7.1.6_iphoneos-arm.deb
+Size: 2708820
+MD5sum: 9902bcff19cdc0a3f83a247268df9534
+SHA1: b3fa65eeef6d0b5331b014ed0ede166b6d456757
+SHA256: 4c51166d70922faf7acfd4a042023dd286c45fdae371bd0f1ecacecb4e1f524e
+Section: Tweaks
+Description: Download tweaks for free
+Author: Julioverne & CyPwn
+Depiction: https://paisseon.github.io/info/cydown.html
+Icon: https://paisseon.github.io/info/cydown.png
+Name: CyDown++
+Sileodepiction: https://paisseon.github.io/info/cydown.json
+
 Package: alsext
 Version: 0.0.1-26+debug
 Architecture: iphoneos-arm
@@ -137,10 +156,10 @@ Architecture: iphoneos-arm
 Maintainer: reverse
 Installed-Size: 3788
 Filename: ./debs/com.reverse.ysl_3.17.5-1+debug_iphoneos-arm.deb
-Size: 645564
-MD5sum: dedfb2e8dd59401f86c677f09be0145f
-SHA1: 8d39cbb9db4e8b0aaf733e9dc86ed14d99b6bd3c
-SHA256: a155944c8959de3106784d45d806d76d14046db5184e5fb4eae59ef57b740fbd
+Size: 645566
+MD5sum: 9e81e783170ec20c53a00a58963fb41b
+SHA1: 04e5f1b075f0876887210524f669adaf0ec22084
+SHA256: 463002341a7f1a5fe3affcb774faaf58ebecfbf7f3230b33ec3dafb27b8df053
 Section: System
 Description: ysl
 Tag: role::hacker
